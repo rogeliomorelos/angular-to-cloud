@@ -49,7 +49,7 @@ jobs:
       run: npm run build
 
     - name: Copy Files to S3
-      run: aws s3 sync dist/rogeliomorelos s3://${{ secrets.BUCKET }} --region ${{ secrets.AWS_REGION }} --acl public-read --delete
+      run: aws s3 sync dist/angular-to-cloud s3://${{ secrets.BUCKET }} --region ${{ secrets.AWS_REGION }} --acl public-read --delete
 
     - name: Invalidate Cache
       run: aws cloudfront create-invalidation --distribution-id ${{ secrets.CLOUDFRONT_ID }} --paths /
