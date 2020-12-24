@@ -1,6 +1,12 @@
+## Complete tutorial in my Blog
+
+If you want to do this lab please visit my Blog [DevOps4Fun - Angular Deployment to AWS using GitHub Actions](https://devops4fun.io/angular-deployment-to-aws-using-github-actions).
+
 # AngularToCloud
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
+
+The goal of this project is to show you a basic CI/CD proces to Deploy an Angular App to AWS S3 with CloudFront using GitHub Actions.
 
 ## Development server
 
