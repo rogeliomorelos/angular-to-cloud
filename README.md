@@ -2,6 +2,13 @@
 
 If you want to do this lab please visit my Blog [DevOps4Fun - Angular Deployment to AWS using GitHub Actions](https://devops4fun.io/angular-deployment-to-aws-using-github-actions).
 
+This project has two workflows:
+- Build, Lint and Test on PR
+- Build and Deploy on Merge - The deployment is done with AWS S3 and Cloudfront
+
+The workflows include caching of node_modules to improve efficiency on "npm install" step.
+
+
 # AngularToCloud
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.3.
